@@ -45,7 +45,7 @@ function Home() {
 
         // Get current time and timestamp for 30 days ago
         const currentTime = Math.floor(Date.now() / 1000); // Current timestamp in seconds
-        const thirtyDaysAgo = currentTime - 180 * 24 * 60 * 60; // Timestamp for 30 days ago
+        const thirtyDaysAgo = currentTime - 540 * 24 * 60 * 60; // Timestamp for 30 days ago
 
         // Map events and filter campaigns created within the last 30 days
         const campaigns = allEvents
